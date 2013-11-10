@@ -1,7 +1,7 @@
 {
 	"name": "how_to_make_a_tutorial",
 	"title": "How To Make A Tutorial",
-	"description": "A brief description of what will be covered in the tutorial",
+	"description": "An introduction to the tut tutorial registry",
 	"version": "0.0.0",
 	"github_path": "cbattista/how_to_make_a_tutorial",
 	"difficulty": 1,
