@@ -37,7 +37,8 @@ The argument after -c is the name of your tutorial, and the argument after -g is
 
 cd how_to_make_a_tutorial
 
-There will be a file called README.md - this is the file that contains your tutorial is written in.
+There will be a file called README.md - this is the file that contains the study materials for your tutorial.
+There will also be a file called tut.json - this contains meta-information about your tutorial and your test materials.
 
 4 - Now we need to connect things to github.  Log into github and create a repository with the same name (in my case, it's needs to be called how_to_make_a_tutorial).
 
@@ -55,6 +56,32 @@ tut -p
 
 git commit -a -m "Description of changes"
 git push origin master
+
+##The files
+In your tutorial directory you'll see two files:  README.md and tut.json.  README.md is a git markdown file and is where you should place your study materials (you are reading the README.md file for this tutorial right now).
+
+The second file, tut.json, contains meta-information about your tutorial as well the test materials for your tutorial.  Let's take a look at the meta-information first.
+
+```
+	"name": "how_to_make_a_tutorial",
+	"title": "How To Make A Tutorial",
+	"description": "In this tutorial we'll teach you how to create and publish tutorials using the tut system",
+	"version": "0.0.1",
+	"github_path": "cbattista/how_to_make_a_tutorial",
+	"difficulty": 1,
+	"topics": [
+  "tut"
+]
+```
+
+_Name_, _title_, and _description_ should all be pretty self-explanatory.  Make sure this information is accurate, otherwise learners will be confused and/or angry when your tutorial doesn't meet their expectations.
+
+Two other important fields that provide information to the learners are _difficulty_ and _topics_ fields.  Difficulty is rated on a scale of 1 to 10, with 1 being the easiest, and 10 being the hardest.  Remember that we suggest that your study materials should take about 10-15 minutes to read or watch.  If your tutorial requires a lot of background knowledge to be understood in 10-15 minutes time, then you should assign it a high difficulty rating to reflect this.  The topics field is fairly obvious,
+
+
+Pay close attention to the _version_ field.  This needs to be changed everytime you publish your tutorial.  Tut will not allow you to publish a new version of your tutorial if you haven't updated this field.
+
+
 
 ##How to make tutorial questions
 
