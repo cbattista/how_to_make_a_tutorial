@@ -45,7 +45,7 @@ There will be a file called README.md - this is the file that contains your tuto
 
 git remote add origin git@github.com:cbattista/how_to_make_a_tutorial.git
 
-git push
+git push origin master
 
 6 - At this point, you should have your study materials in README.md, and they can be published using:
 
@@ -54,7 +54,7 @@ tut -p
 7 - Anytime you make any changes to tutorial you use the standard git tools to commit your changes.
 
 git commit -a -m "Description of changes"
-git push
+git push origin master
 
 ##How to make tutorial questions
 
