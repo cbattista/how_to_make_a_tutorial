@@ -55,3 +55,11 @@ tut -p
 
 git commit -a -m "Description of changes"
 git push
+
+##How to make tutorial questions
+
+In addition to the study materials, you also need testing materials.  These are located in the file tut.json.  As mentioned, testing materials come in the following formats: _multiple choice_, _true or false_, and _short answer_.
+
+Here's an example of a multiple choice question, in JSON format.
+
+
