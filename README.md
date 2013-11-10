@@ -65,12 +65,8 @@ git push origin master
 tut -p
 ```
 
-<<<<<<< HEAD
-git push origin master
-=======
 The Tut system
 --------------
->>>>>>> 97fd6f490f0afa45c2284a2f423ca79954bbd2e6
 
 There are two types of user who might use Tut:  _learners_ and _teachers_.  These categories are not mutually exclusive - for instance, if you're taking this tutorial, it's so you can be a teacher yourself.  However, since you are taking a tutorial, right now you are a learner!
 
@@ -83,10 +79,6 @@ Learners will navigate your tutorials as follows.  First, they will read the stu
 
 Testing
 -------
-
-<<<<<<< HEAD
-git commit -a -m "Description of changes"
-git push origin master
 
 ##The files
 In your tutorial directory you'll see two files:  README.md and tut.json.  README.md is a git markdown file and is where you should place your study materials (you are reading the README.md file for this tutorial right now).
@@ -113,9 +105,7 @@ Two other important fields that provide information to the learners are _difficu
 Pay close attention to the _version_ field.  This needs to be changed everytime you publish your tutorial.  Tut will not allow you to publish a new version of your tutorial if you haven't updated this field.
 
 
-=======
 The test period is a really cool features of Tut.  It's been demonstrated that _distributed testing_, where people answer quiz questions over time is much better than _massed testing_, where people answer quiz questions all in the same test session.  You may have noticed when you created your account that Tut asks you for your mobile number.  This is so we can actually send our learners quiz questions at random times of the day via SMS.   When a learner receives a text from Tut, they text the answer back, and immediately get feedback on whether their answer is right or wrong.  They also receive points based on how quickly they can answer their quiz question.  After the answer is received and feedback is given, another quiz question will be sent at another random time.  If a user chooses to ignore a quiz question, they won't receive any more texts from Tut until it's been answered.  We'll show you how to construct a quiz question in the next section.
->>>>>>> 97fd6f490f0afa45c2284a2f423ca79954bbd2e6
 
 Writing Tutorial Questions
 ------------------------------
