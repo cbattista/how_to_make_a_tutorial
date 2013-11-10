@@ -19,7 +19,7 @@ The Tut system uses github repositories to act as hosts for tutorials.  This has
 
 Now, let's go through the steps Let's get into the nuts and bolts of tutorial publishing.  
 
-1.  Tut runs on Node.js and can be installed using the node package manager:
+1 - Tut runs on Node.js and can be installed using the node package manager:
 
 sudo npm install tut
 
@@ -27,31 +27,31 @@ At any time, you can learn about Tut's functions by typing:
 
 tut --help
 
-2.  Let's create our first tutorial (this tutorial in fact), by running:
+2 - Let's create our first tutorial (this tutorial in fact), by running:
 
 tut -c how_to_make_a_tutorial -g cbattista
 
 The argument after -c is the name of your tutorial, and the argument after -g is your github username.  
 
-3.  After you create your tutorial, a directory on your local machine should be created.  Go into that directory using:
+3 - After you create your tutorial, a directory on your local machine should be created.  Go into that directory using:
 
 cd how_to_make_a_tutorial
 
 There will be a file called README.md - this is the file that contains your tutorial is written in.
 
-4.  Now we need to connect things to github.  Log into github and create a repository with the same name (in my case, it's needs to be called how_to_make_a_tutorial).
+4 - Now we need to connect things to github.  Log into github and create a repository with the same name (in my case, it's needs to be called how_to_make_a_tutorial).
 
-5.  Once the git repository is created, obtain the SSH clone URL from git.  Back on your command prompt, run the following commands:
+5 - Once the git repository is created, obtain the SSH clone URL from git.  Back on your command prompt, run the following commands:
 
 git remote add origin git@github.com:cbattista/how_to_make_a_tutorial.git
 
 git push
 
-6.  At this point, you should have your study materials in README.md, and they can be published using:
+6 - At this point, you should have your study materials in README.md, and they can be published using:
 
 tut -p
 
-7.  Anytime you make any changes to tutorial you use the standard git tools to commit your changes.
+7 - Anytime you make any changes to tutorial you use the standard git tools to commit your changes.
 
 git commit -a -m "Description of changes"
 git push
