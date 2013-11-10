@@ -1,0 +1,31 @@
+{
+	"name": "how_to_make_a_tutorial",
+	"title": "How To Make A Tutorial",
+	"description": "A brief description of what will be covered in the tutorial",
+	"version": "0.0.0",
+	"github_path": "cbattista/how_to_make_a_tutorial",
+	"difficulty": 1,
+	"topics": [
+  "JavaScript"
+],
+	"questions": [
+  {
+    "question": "how long should it take someone to read your tutorial?",
+    "options": [
+      "15 minutes",
+      "1 hour",
+      "30 minutes",
+      "2 hours"
+    ],
+    "answer": "15 minutes"
+  },
+  {
+    "question": "an advanced tutorial should have a difficulty of 1",
+    "answer": false
+  },
+  {
+    "question": "this command line tool can be used to create tutorials",
+    "answer": "tut"
+  }
+]
+}
