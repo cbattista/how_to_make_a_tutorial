@@ -60,6 +60,32 @@ git push
 
 In addition to the study materials, you also need testing materials.  These are located in the file tut.json.  As mentioned, testing materials come in the following formats: _multiple choice_, _true or false_, and _short answer_.
 
-Here's an example of a multiple choice question, in JSON format.
+Here's an example of a multiple choice question, in JSON format:
+```
+{
+    "question": "how long should it take someone to read your tutorial?",
+    "options": [
+      "15 minutes",
+      "1 hour",
+      "30 minutes",
+      "2 hours"
+    ],
+    "answer": "15 minutes"
+  }
+```
 
+Here's a true or false question:
+```
+{
+   "question":  "True of False?  Massed testing is better than distributed testing."
+   "answer": False
+}
+```
 
+Lastly, here's an example of a short answer question:
+```
+  {
+    "question": "this command line tool can be used to create tutorials",
+    "answer": "tut"
+  }
+```
