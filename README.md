@@ -72,15 +72,14 @@ There are two types of user who might use Tut:  _learners_ and _teachers_.  Thes
 
 There are two main forms of tutorial content:  _study materials_, and _test materials_.  Study materials are things like text or linked video that explain the concept you're trying to convey (you are reading the study materials of this tutorial right now).  Test materials are quiz questions that can be in any of the following formats:  _multiple choice_, _true or false_, or _short answer_.
 
-Learners
+How learners learn
 --------
 
 Learners will navigate your tutorials as follows.  First, they will read the study materials.  Research suggests that an optimal way to study is to absorb content in three intense 10-15 minute study sessions, with a 10 minute break for rest in between.  So, one of the critical features of a good tutorial is that it takes about 10-15 to read through (or watch, it it's a linked video).  If your tutorial is much longer or much shorter than this, you may not receive a very high rating from the Tut community.  Once the user feels they've read over the material enough (hopefully following our guidelines of 3 study sessions, with a 10-minute break in between), they'll click a button on the tutorial screen to indicate that they're reading for the test period to begin.
 
-Testing
+The files
 -------
 
-##The files
 In your tutorial directory you'll see two files:  README.md and tut.json.  README.md is a git markdown file and is where you should place your study materials (you are reading the README.md file for this tutorial right now).
 
 The second file, tut.json, contains meta-information about your tutorial as well the test materials for your tutorial.  Let's take a look at the meta-information first.
