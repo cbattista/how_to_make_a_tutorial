@@ -44,6 +44,7 @@ There will be a file called README.md - this is the file that contains your tuto
 5.  Once the git repository is created, obtain the SSH clone URL from git.  Back on your command prompt, run the following commands:
 
 git remote add origin git@github.com:cbattista/how_to_make_a_tutorial.git
+
 git push
 
 6.  At this point, you should have your study materials in README.md, and they can be published using:
