@@ -10,7 +10,7 @@
 ],
 	"questions": [
   {
-    "question": "how long should it take someone to read your tutorial?",
+    "question": "How long should it take someone to read your tutorial?",
     "options": [
       "15 minutes",
       "1 hour",
@@ -19,13 +19,30 @@
     ],
     "answer": "15 minutes"
   },
+{
+   "question":  "True of False?  Massed testing is better than distributed testing."
+   "answer": false
+},
   {
-    "question": "an advanced tutorial should have a difficulty of 1",
-    "answer": false
-  },
-  {
-    "question": "this command line tool can be used to create tutorials",
+    "question": "This command line tool can be used to create tutorials",
     "answer": "tut"
   }
+,
+  {
+    "question": "What field in tut.json do you have to change anytime you publish an updated version of your tutorial?",
+    "answer": "version"
+  }
+,
+  {
+    "question":  "What are the two phases of learning in the tut system?",
+	"options" : [
+		"read and write",
+		"study and test",
+		"read and write",
+		"write and test",
+		"study and write"
+	],
+	"answer" : "study and test"
+}
 ]
 }
