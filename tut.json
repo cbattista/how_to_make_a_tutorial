@@ -2,7 +2,7 @@
 	"name": "how_to_make_a_tutorial",
 	"title": "How To Make A Tutorial",
 	"description": "A tutorial and how to create and publish a tutorial using the Tut system",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"github_path": "cbattista/how_to_make_a_tutorial",
 	"difficulty": 1,
 	"topics": [

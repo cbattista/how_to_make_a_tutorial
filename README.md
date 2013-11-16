@@ -30,7 +30,7 @@ tut -c the_tut_package_registry -g my-github-username
 * Add this github repo as a remote to your local tutorial:
 
 ```bash
-git add remote origin git://path-to-tutorial-on-github
+git remote add origin git://path-to-tutorial-on-github
 ```
 
 * Push your up-to-date tutorial to github:
